@@ -11,10 +11,12 @@ A compact, stylish Termux lock with:
 ## Install
 
 ```bash
+apt update && apt upgrade -y
 pkg update -y
 pkg install -y python
-# copy or clone this repo into your device, then:
-cd <repo-folder>
+git clone https://github.com/Pratham12346/Termux_Lock.git
+cd Termux_Lock
+chmod +x install.py termux_lock.py
 python3 install.py
 ```
 
@@ -32,3 +34,4 @@ python3 ~/.termux_lock/termux_lock.py
 This lock is a convenience layer — anyone with filesystem or root access can remove/modify it.
 
 Made by Pratham (Hackerk_17)
+Thank You....
