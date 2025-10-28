@@ -11,7 +11,6 @@ A compact, stylish Termux lock with:
 ## Install
 
 ```bash
-apt update && apt upgrade -y
 pkg update -y
 pkg install -y python
 git clone https://github.com/Pratham12346/Termux_Lock.git
