@@ -13,7 +13,7 @@ A compact, stylish Termux lock with:
 ```bash
 pkg update -y
 pkg install -y python
-git clone https://github.com/Pratham12346/Termux_Lock.git
+git clone https://github.com/Hackerk17/Termux_Lock.git
 cd Termux_Lock
 chmod +x install.py termux_lock.py
 python3 install.py
